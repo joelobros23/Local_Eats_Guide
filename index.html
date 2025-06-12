@@ -7,7 +7,64 @@
 	<script src='https://cdn.tailwindcss.com'></script>
 	<link rel='stylesheet' href='assets/css/style.css'>
 </head>
-<body>
-	<!-- Content for index.html will be generated here -->
+<body class="bg-gray-100">
+	<header class="bg-white shadow-md">
+		<nav class="container mx-auto py-4 px-6 flex items-center justify-between">
+			<a href="#" class="text-2xl font-bold text-gray-800">Local Eats Guide</a>
+			<ul class="flex space-x-6">
+				<li><a href="#" class="text-gray-600 hover:text-gray-800">Home</a></li>
+				<li><a href="#" class="text-gray-600 hover:text-gray-800">Restaurants</a></li>
+				<li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container mx-auto py-8 px-6">
+		<section class="mb-8">
+			<h2 class="text-3xl font-bold mb-4 text-gray-800">Featured Restaurants</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+				<div class="bg-white rounded-lg shadow-md overflow-hidden">
+					<img src="https://placehold.co/600x400" alt="Restaurant 1" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="text-xl font-semibold mb-2 text-gray-800">The Italian Place</h3>
+						<p class="text-gray-600">Authentic Italian cuisine with a modern twist. Try our famous lasagna!</p>
+						<a href="#" class="inline-block mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Menu & Reviews</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-lg shadow-md overflow-hidden">
+					<img src="https://placehold.co/600x400" alt="Restaurant 2" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="text-xl font-semibold mb-2 text-gray-800">Sushi Heaven</h3>
+						<p class="text-gray-600">Fresh sushi and sashimi prepared daily. Don't miss our Dragon Roll!</p>
+						<a href="#" class="inline-block mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Menu & Reviews</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-lg shadow-md overflow-hidden">
+					<img src="https://placehold.co/600x400" alt="Restaurant 3" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="text-xl font-semibold mb-2 text-gray-800">Burger Bliss</h3>
+						<p class="text-gray-600">Gourmet burgers made with locally sourced ingredients. Build your own masterpiece!</p>
+						<a href="#" class="inline-block mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Menu & Reviews</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="text-3xl font-bold mb-4 text-gray-800">About Us</h2>
+			<p class="text-gray-700 leading-relaxed">
+				Welcome to Local Eats Guide, your go-to source for discovering the best restaurants in town! We're passionate about supporting local businesses and sharing our favorite dining experiences with you. Our team of food enthusiasts personally visits each restaurant and provides honest reviews, photos, and menu information. Whether you're looking for a romantic dinner spot, a casual lunch cafe, or a family-friendly restaurant, we've got you covered.
+			</p>
+			<p class="text-gray-700 leading-relaxed mt-4">
+				Our goal is to make it easy for you to find the perfect place to eat, no matter your taste or budget. We constantly update our listings with new restaurants and special offers, so be sure to check back often. Happy eating!
+			</p>
+		</section>
+	</main>
+
+	<footer class="bg-gray-200 py-4 mt-8">
+		<div class="container mx-auto text-center text-gray-600">
+			&copy; 2023 Local Eats Guide. All rights reserved.
+		</div>
+	</footer>
 </body>
 </html>
