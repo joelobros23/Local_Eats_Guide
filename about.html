@@ -3,11 +3,105 @@
 <head>
 	<meta charset='UTF-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<title>Local_Eats_Guide</title>
+	<title>Local Eats Guide - About Us</title>
 	<script src='https://cdn.tailwindcss.com'></script>
 	<link rel='stylesheet' href='assets/css/style.css'>
 </head>
-<body>
-	<!-- Content for about.html will be generated here -->
+<body class="bg-gray-100">
+	<!-- Header -->
+	<header class="bg-white shadow-md">
+		<div class="container mx-auto py-4 px-6">
+			<nav class="flex items-center justify-between">
+				<a href="index.html" class="text-2xl font-bold text-gray-800">Local Eats Guide</a>
+				<ul class="flex space-x-6">
+					<li><a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a></li>
+					<li><a href="about.html" class="text-gray-600 hover:text-gray-800 font-semibold">About</a></li>
+					<li><a href="#" class="text-gray-600 hover:text-gray-800">Restaurants</a></li>
+					<li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Main Content -->
+	<main class="container mx-auto py-12 px-6">
+		<!-- About Section -->
+		<section class="mb-12">
+			<h2 class="text-3xl font-bold text-gray-800 mb-4">About Local Eats Guide</h2>
+			<p class="text-gray-700 leading-relaxed mb-6">
+				Welcome to Local Eats Guide, your trusted source for discovering the best restaurants in town! We are passionate about connecting local communities with the amazing culinary experiences that our region has to offer. Our mission is to provide honest, reliable reviews and up-to-date information on menus, hours, and atmospheres, so you can make informed decisions about where to dine.
+			</p>
+			<p class="text-gray-700 leading-relaxed mb-6">
+				We understand that choosing a restaurant can be overwhelming, especially with so many options available. That's why we've created this guide to simplify the process and help you find the perfect spot for any occasion. Whether you're looking for a romantic dinner, a family-friendly brunch, or a quick lunch break, we've got you covered.
+			</p>
+			<p class="text-gray-700 leading-relaxed">
+				Our team of dedicated food enthusiasts is constantly exploring new restaurants and revisiting old favorites to ensure that our guide remains accurate and relevant. We value your feedback and encourage you to share your own dining experiences with us. Together, we can build a vibrant community of food lovers and support our local restaurants.
+			</p>
+		</section>
+
+		<!-- Team Section -->
+		<section class="mb-12">
+			<h2 class="text-3xl font-bold text-gray-800 mb-4">Our Team</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				<!-- Team Member 1 -->
+				<div class="bg-white rounded-lg shadow-md p-4">
+					<img src="https://placehold.co/600x400" alt="Team Member 1" class="w-full h-48 object-cover rounded-md mb-4">
+					<h3 class="text-xl font-semibold text-gray-800 mb-2">John Smith</h3>
+					<p class="text-gray-600">Founder & CEO</p>
+					<p class="text-gray-700 leading-relaxed mt-2">John has always had a passion for food and local businesses. He started Local Eats Guide to share his love for the culinary scene with the world.</p>
+				</div>
+
+				<!-- Team Member 2 -->
+				<div class="bg-white rounded-lg shadow-md p-4">
+					<img src="https://placehold.co/600x400" alt="Team Member 2" class="w-full h-48 object-cover rounded-md mb-4">
+					<h3 class="text-xl font-semibold text-gray-800 mb-2">Jane Doe</h3>
+					<p class="text-gray-600">Editor & Reviewer</p>
+					<p class="text-gray-700 leading-relaxed mt-2">Jane is a seasoned food critic with a knack for identifying hidden gems and writing captivating reviews. Her insights are invaluable to our readers.</p>
+				</div>
+
+				<!-- Team Member 3 -->
+				<div class="bg-white rounded-lg shadow-md p-4">
+					<img src="https://placehold.co/600x400" alt="Team Member 3" class="w-full h-48 object-cover rounded-md mb-4">
+					<h3 class="text-xl font-semibold text-gray-800 mb-2">Peter Jones</h3>
+					<p class="text-gray-600">Marketing Manager</p>
+					<p class="text-gray-700 leading-relaxed mt-2">Peter is responsible for promoting Local Eats Guide and connecting with our audience. He's always looking for new ways to share our message.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Form -->
+		<section>
+			<h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
+			<p class="text-gray-700 leading-relaxed mb-6">
+				We'd love to hear from you! If you have any questions, suggestions, or feedback, please don't hesitate to reach out using the form below.
+			</p>
+			<form class="max-w-lg mx-auto">
+				<div class="mb-4">
+					<label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+					<input type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Name">
+				</div>
+				<div class="mb-4">
+					<label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+					<input type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Email">
+				</div>
+				<div class="mb-6">
+					<label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+					<textarea id="message" rows="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Message"></textarea>
+				</div>
+				<div class="flex items-center justify-between">
+					<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+						Send Message
+					</button>
+				</div>
+			</form>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="bg-gray-800 text-white py-4">
+		<div class="container mx-auto text-center">
+			<p>&copy; 2023 Local Eats Guide. All rights reserved.</p>
+		</div>
+	</footer>
 </body>
 </html>
